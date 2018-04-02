@@ -6,3 +6,8 @@ echo "bash script to check the status of git repository"
  	path="`pwd`"
  fi
  echo $path
+
+ git log -1 --pretty=format:"most recent commit information
+ author name= %aN
+ author email= %ae
+ comment=%s"
