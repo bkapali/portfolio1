@@ -15,3 +15,6 @@ uptime | awk -F'( |,|:)+' '{print "Current Users: ",$8}' >> workshop2_output.txt
 
 top -l 1 | head -n 10 | grep PhysMem | sed 's/, /n /g' | awk '{print "Memory Utilisation: ", substr($4,2)/$2*100,"%"}' >> workshop2_output.txt
 uptime | awk '{print "CPU Load: ",$10}' >> workshop2_output.txt
+
+dashSpace="$(printf '%0.1s' -{1..31})"
+echo "${dashSpace// /-} End Report ${dashSpace// /-}" >> workshop2_output.txt
