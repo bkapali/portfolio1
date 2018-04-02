@@ -1,5 +1,7 @@
 ------------------------------ System Report ------------------------------
-Date: 02/04/2018  Time: 22:04:52  Host Name Bipin-MBP
+Date: 02/04/2018  Time: 22:14:40  Host Name Bipin-MBP
 ---------------------------------------------------------------------------
-Uptime:  6 days , 9 hours, 26 minutes
+Uptime:  6 days , 9 hours, 35 minutes
 Current Users:  3
+Memory Utilisation:  17.8154 %
+CPU Load:  1.64
