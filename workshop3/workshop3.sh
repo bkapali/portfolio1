@@ -40,6 +40,7 @@ then
 
  fi
 
+
 else
 
 	echo "You are off campus"
